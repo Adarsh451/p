@@ -1,0 +1,66 @@
+body{
+    background-image:url("images/n7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    place-items: center;
+    display: grid;
+    place-items: center;
+
+
+}
+
+h1{ 
+    font-style: italic;
+    color: rgba(29, 30, 25, 0.882);
+    place-items: center;
+    display: grid;
+    position: center;}
+
+    h1:hover{ 
+
+        box-shadow: 0px 0px 5px chocolate,
+         0px 0px 30px chocolate,
+         0px 0px 90px chocolate;
+        cursor: pointer;
+        background-color: yellow;
+
+    }
+    
+
+.box{
+    cursor: pointer;
+    border: solid gray;
+background: transparent;
+background-size: cover;
+backdrop-filter: blur(5px);
+    width: 450px;
+    height: 300px;
+    display: grid;
+    place-content: center;
+    border-radius: 10px;
+    
+}
+button{
+     background-color: blue;
+     color: black;
+     cursor: pointer;
+}
+.button:hover{
+
+      color: azure;
+      background-color: blueviolet;
+      cursor: pointer;
+}
+.box:hover{
+    box-shadow: 0px 0px 5px gray,
+           0px 0px 30px gray,
+           0px 0px 90px gray;
+           cursor: pointer;
+} 
+
+input{
+    background-color: #d9c0f0;
+}
+button{
+    background-color:#d9c0f0 ;
+}
